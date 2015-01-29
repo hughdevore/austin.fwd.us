@@ -7,6 +7,7 @@
 /* Layout & global */
 
 body, html {
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: #ecebe9;
   color: #fff;
   text-align: center;
@@ -38,10 +39,16 @@ h1 {
 }
 
 h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  
   color: #e8632a;
   font-size: 4em;
   margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+p {
+  color: #2E2D2C;
+
 }
 
 

@@ -1,59 +1,73 @@
-<header>
-    <a href="http://www.fwd.us/chapter_aus" target="_blank"><img src="images/fwd-logo.svg" alt="" class="logo"></a>
-  </header>
+<div class="heading-wrapper">
+    <header>
+        <a href="http://www.fwd.us/chapter_aus" target="_blank">
+            <img src="images/fwd-logo.svg" alt="" class="logo">
+        </a>
+    </header>
 
-  <div id="title">
-    <h1>#LetAbbottHaveIt</h1>
-    <h3>
-      Show your support for #ImmigrationReform by tweeting the $$$ companies in Texas are losing from Greg Abbott's #ImmigrationReform lawsuit.
-    </h3>
-  </div>
+    <div id="title">
+        <h1 class="hvr-grow">#LetAbbottHaveIt</h1>
+        <h3>
+          Support #ImmigrationReform by tweeting Greg Abbott
+        </h3>
+        <p class="text-muted"> Show your support for #ImmigrationReform by tweeting the $$$ companies in Texas are losing from Greg Abbott's #ImmigrationReform lawsuit.</p>
+    </div>
   
-  <div id="twitterButton">
-            <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   <button class="btn">
-        <span class="label" id="l"><i class="fa fa-twitter"></i>Tweet</span></button>
-</a>
+    <div id="twitterButton">
+        <a class="btn  hvr-icon-grow-rotate hvr-grow" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
+                <span class="label" id="l">
+                <strong> Tweet</strong></span>
+        </a>  
 <!--            GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetGregAbbottHaveIt%20austin.fwd.us
 -->
-  </div>
-
-  <div id="infographic">
-    <div class="data-label">
-      <div class="info-label">DAYS LAWSUIT PENDING: </div>
-      <div class="info-data">X DAYS</div>
     </div>
-    <div class="data-label">
+</div>
+
+<div ng-controller="homeCtrl" class="info-wrapper col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
+  <div id="infographic" class="tubs container col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
+    <div class="data-label hvr-grow">
+      <div class="info-label"><strong>DAYS LAWSUIT PENDING: </strong></div>
+      <div class="info-data">90 DAYS {{daysPending}}</div>
+    </div>
+    <div class="data-label hvr-grow">
       <div class="info-label">COMPANIES AFFECTED: </div>
       <div class="info-data">X COMPANIES</div>
     </div>
-    <div class="data-label" ng-controller="homeCtrl">
+    <div class="data-label hvr-grow">
       <div class="info-label">$$$ LOST PER DAY: </div>
-      <div class="info-data">$,$$$,$$$</div>
-            {{container}}
+      <div class="info-data">$ 185,205.48</div>
+            
     </div>
-    <div class="data-label">
+    <div class="data-label hvr-grow">
       <div class="info-label">TOTAL COST OF LAWSUIT: </div>
-      <div class="info-data">$$$,$$$,$$$</div>
+      <div class="info-data">$ {{container}}</div>
     </div>
-    <a href="#">*Citation</a>
+      <div>
+        <a class="pull-right" href="#">*Citation</a>
+      </div>
   </div>
 
-  <div id="tweet-counter">
+  <div id="tweet-counter" class="col-lg-1 col-md-1 col-sm-1">
   </div>
 
-  <div id="twitter-feed">
-        <nav>Twitter Feed</nav>
-    </div>
+  <div id="twitter-feed" class="tubs container col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p>Twitter Feed</p>
+      <div>
+          <a class="twitter-timeline" href="https://twitter.com/hashtag/immigrationreform" data-widget-id="572096668334432256">#immigrationreform Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+  </div>
 
-  <div id="video-wrapper">
+  <div id="video-wrapper" class="tubs container col-lg-12 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
     <div id="video_container"></div>
       <p>
       These videos were filmed and compiled by FWD.us Austin Chapter members.
       </p>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>
+      Movie
+<!--        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>-->
   </div>
     
- </div>
+</div>
     
 
   <!-- SCRIPTS -->

@@ -15,6 +15,7 @@ body, html {
 
 header {
   text-align: left;
+  padding-bottom: 50px;  
 }
 
 .logo {
@@ -25,8 +26,6 @@ iframe {
   max-width: 100%;
 }
 
-
-
 /* Type */
 h1 {
   font-family: 'Droid Serif', Georgia, serif;
@@ -34,24 +33,70 @@ h1 {
   font-size: 2.5em;
   display: block;
   width: 100%;
-  margin-top: -40px;
+/*  margin-top: -40px;*/
+      margin-top: 32px;
+  margin-bottom: 32px;
   color: #369ff4;
 }
 
 h3 {
-  
-  color: #e8632a;
-  font-size: 4em;
-  margin-top: 32px;
-  margin-bottom: 32px;
+    color: #e8632a;
+    font-size: 4em;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 p {
-  color: #2E2D2C;
-
+    color: #2E2D2C;
+    font-size: 1.5em;
 }
 
+.heading-wrapper{
+    background-color: white;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(128,128,128,.5);
+}
+.btn.outline {
+    border: 2px solid #0099cc;
+    color: black;
+}
+.tubs{
+    background: rgb(81, 153,211);
+    border-radius: 5px;
+    margin: 20px 0px 20px 0;
+}
 
+.data-label{
+    margin: 20px 20px;
+}
+
+#twitterButton a{
+    background: rgb(169, 206,244); 
+    font-weight: 500;
+    font-size: 2em;
+    
+  /*Transition*/
+    -webkit-transition: All 0.5s ease;
+    -moz-transition: All 0.5s ease;
+    -o-transition: All 0.5s ease;
+    -ms-transition: All 0.5s ease;
+    transition: All 0.5s ease;
+}
+.hvr-icon-grow-rotate:before {
+    content: "\f099";
+}
+.info-label{
+    color: rgb(45,45,45);   
+    font-weight: 900;
+    font-size: 2em;
+}
+.info-data{
+    font-size: 1.5em;
+}
+#twitter-feed p{
+    font-size: 3em;
+    color: white;
+}
 /* Responsive */
 
 @media screen and (max-width: 1200px) {

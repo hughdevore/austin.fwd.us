@@ -5,47 +5,68 @@
             <img src="images/fwd-logo.svg" alt="" class="logo">
         </a>
     </header>
+    
+    <h1 class="hvr-grow">#LetAbbottHaveIt</h1>
 
-    <div id="title">
-        <h1 class="hvr-grow">#LetAbbottHaveIt</h1>
-        <h3>
-          Support #ImmigrationReform by tweeting Greg Abbott
-        </h3>
-        <p class="text-muted"> Show your support for #ImmigrationReform by tweeting the $$$ companies in Texas are losing from Greg Abbott's #ImmigrationReform lawsuit.</p>
-    </div>
-  
     <div id="twitterButton">
-        <a class="btn  hvr-icon-grow-rotate hvr-grow" ng-href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20${{container}}.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
+        <a class="btn  hvr-icon-grow-rotate hvr-grow" ng-href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20FACT:%20Your%20lawsuit%20against%20%23ImmigrationReform%20has%20cost%20the%20US%20${{containerNational}}.%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
                 <span class="label" id="l">
-                <strong> Tweet</strong></span>
+                <strong>Tweet</strong></span>
         </a>  
 <!--            GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetGregAbbottHaveIt%20austin.fwd.us
 -->
     </div>
+    
+    <div id="title">
+        <h3>
+          Tweet Greg the facts on what the #ImmigrationReform lawsuit has cost the US.
+        </h3>
+            
+    </div>
+    
 </div>
 
 <div class="info-wrapper col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
   <div id="infographic" class="tubs container col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
+    <h1>GREG ABBOTT'S LAWSUIT</h1>  
+      
     <div class="data-label hvr-grow">
-      <div class="info-label"><strong>DAYS LAWSUIT PENDING: </strong></div>
-      <div class="info-data">90 DAYS {{daysPending}}</div>
+      <div class="info-label"><strong>DAYS ACTIVE: </strong></div>
+      <div class="info-data">{{numdays}} DAYS</div>
     </div>
-    <div class="data-label hvr-grow">
-      <div class="info-label">COMPANIES AFFECTED: </div>
-      <div class="info-data">X COMPANIES</div>
-    </div>
-    <div class="data-label hvr-grow">
-      <div class="info-label">$$$ LOST PER DAY: </div>
-      <div class="info-data">$ 185,205.48</div>
-            
-    </div>
-    <div class="data-label hvr-grow">
-      <div class="info-label">TOTAL COST OF LAWSUIT: </div>
-      <div class="info-data">$ {{container}}</div>
-    </div>
-      <div>
-        <a class="pull-right" href="#">*Citation</a>
+    
+    <div id="texas">
+        <h2>TEXAS</h2>
+        <div class="data-label hvr-grow">
+          <div class="info-label">LOST PER DAY: </div>
+          <div class="info-data">$ 185,205.48</div>
+
+        </div>
+        <div class="data-label hvr-grow">
+          <div class="info-label">CURRENT COST: </div>
+          <div class="info-data">$ {{container}}</div>
+        </div>
+        <div>
+            <a class="pull-right" href="http://www.scribd.com/doc/248188359/Economic-Benefits-of-Executive-Action-for-Texas">*Citation</a>
       </div>
+    </div>
+      
+    <div id="nation">
+        <h2>NATIONALLY</h2>
+        <div class="data-label hvr-grow">
+          <div class="info-label">LOST PER DAY:</div>
+          <div class="info-data">$ 37 Million</div>
+
+        </div>
+        <div class="data-label hvr-grow">
+          <div class="info-label">CURRENT COST:</div>
+          <div class="info-data">$ {{containerNational}}</div>
+        </div>
+        <div>
+            <a class="pull-right" href="hhttps://www.americanprogress.org/issues/immigration/news/2013/11/07/78602/the-cost-of-inaction-on-immigration-reform/">*Citation</a>
+      </div>
+    </div>
+        
   </div>
 
   <div id="tweet-counter" class="col-lg-1 col-md-1 col-sm-1">
@@ -64,7 +85,7 @@
       <p>
       These videos were filmed and compiled by FWD.us Austin Chapter members.
       </p>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=0&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>
   </div>
     
 </div>

@@ -47,11 +47,6 @@ angular.module('app.controllers', [])
 		$state.go('home');
 	};
 })
-.controller('tweetCtrl', function($scope, $state) {
-	$scope.goTweet = function() {
-		$state.go('tweet');
-	};
-})
 .controller('successCtrl', function($scope, $state) {
 	$scope.goSuccess = function() {
 		$state.go('success');

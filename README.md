@@ -1,9 +1,9 @@
 <h1>The Iron Yard - Hackathon</h1>
 <h2>Team ironFWD</h2>
 <h1>Timeline:</h1>
-Hackathon Dates: Thursday, Friday, Saturday & Sunday (2/26-2/29)
+<strong>Hackathon Dates:</strong> Thursday, Friday, Saturday & Sunday (2/26-2/29)
 <br>
-Deadline: Needs to be ready to launch by National Day of Action. 
+<strong>Deadline:</strong> Needs to be ready to launch by National Day of Action. 
 
 <h1>Our project:</h1>
 <strong>Overview:</strong> Rebuild local web page to

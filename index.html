@@ -6,52 +6,11 @@
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-  <header>
-    <a href="http://www.fwd.us/chapter_aus" target="_blank"><img src="images/fwd-logo.svg" alt="" class="logo"></a>
-  </header>
-  <h1>Austin Supports Immigration Reform</h1>
-  <div id="video_container"></div>
-  <h3>
-    Tell your representative it's time to #LeadOnReform
-    <a 
-      class="twitter-share-button" 
-      href="https://twitter.com/share" 
-      data-url="http://chapters.fwd.us/" 
-      data-text=".@RepRWilliams I encourage you to watch these powerful videos from Austin in support of #CIR and #LeadOnReform" 
-      data-related="fwd_us"
-      data-count="none" 
-      data-size="large">Tweet</a>
-  </h3>
-  <p>These videos were filmed and compiled by FWD.us Austin Chapter members.</p>
-  <!-- SCRIPTS -->
-    <script type="text/javascript">
-    window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<body ng-app="app">
 
-    <script>
-      function randInt(min, max) {
-        return Math.floor(Math.random() * (max-min + 1) + min);
-      }
+  <div ui-view>
+  </div>
+    
 
-      $(document).ready(function() {
-        var videoStart = randInt(1, 9);
-        var iframe = '<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&autoplay=1&index=' + videoStart + '" frameborder="0" allowfullscreen id="video"></iframe>';
-        $('#video_container').html(iframe);
-      });
-
-    </script>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40064420-1', 'auto');
-  ga('send', 'pageview');
-
-
-</script>
 </body>
 </html>

@@ -1,0 +1,123 @@
+<header>
+    <a href="http://www.fwd.us/chapter_aus" target="_blank"><img src="../../app/assets/images/fwdLogo.svg" alt="" class="logo"></a>
+  </header>
+
+  <div id="title">
+    <h1>#LetGregAbbottHaveIt</h1>
+    <h3>
+      Show your support for #ImmigrationReform by tweeting the $$$ companies in Texas are losing from Greg Abbott's lawsuit.
+    </h3>
+  </div>
+  
+  <div id="twitterButton">
+      <!-- Original twitter button script -->
+      <!--<a class="twitter-share-button" 
+        href="https://twitter.com/share" 
+      data-url="http://chapters.fwd.us/" 
+        data-text=".@RepRWilliams I encourage you to watch these powerful videos from Austin in support of #CIR and #LeadOnReform" 
+      data-related="fwd_us"
+      data-count="none" 
+      data-size="large">
+      Tweet
+    </a> -->
+            <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   <button>
+        <span class="label" id="l"><i class="fa fa-twitter"></i>Tweet</span></button>
+</a>
+<!--            GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetGregAbbottHaveIt%20austin.fwd.us
+-->
+<!--
+            <a class="twitter-share-button" 
+                href="https://twitter.com/share" 
+                data-url="http://chapters.fwd.us/" 
+                data-text=".@GregAbbott_TX Your injunction has cost Texas $XXX,XXX,XXX. It's time for #ImmigrationReform #LetGregAbbottHaveIt austin.fwd.us" 
+                data-related="fwd_us"
+                data-count="none" 
+                data-size="large">
+            Tweet
+            </a>
+-->
+  </div>
+
+  <div id="infographic">
+    <div class="data-label">
+      <div class="info-label">DAYS LAWSUIT PENDING: </div>
+      <div class="info-data">X DAYS</div>
+    </div>
+    <div class="data-label">
+      <div class="info-label">COMPANIES AFFECTED: </div>
+      <div class="info-data">X COMPANIES</div>
+    </div>
+    <div class="data-label" ng-controller="homeCtrl">
+      <div class="info-label">$$$ LOST PER DAY: </div>
+      <div class="info-data">$,$$$,$$$</div>
+            {{container}}
+    </div>
+    <div class="data-label">
+      <div class="info-label">TOTAL COST OF LAWSUIT: </div>
+      <div class="info-data">$$$,$$$,$$$</div>
+    </div>
+    <a href="#">*Citation</a>
+  </div>
+
+  <div id="tweet-counter">
+  </div>
+
+  <div id="twitter-feed">
+        <nav>Twitter Feed</nav>
+    </div>
+
+  <div id="video-wrapper">
+    <div id="video_container"></div>
+      <p>
+      These videos were filmed and compiled by FWD.us Austin Chapter members.
+      </p>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>
+  </div>
+    
+ </div>
+    
+
+  <!-- SCRIPTS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <!-- Added the twitter button script to app.controllers -->
+    <!--     <script>
+    window.twttr = (function(d, s, id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+      return
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = {
+      _e: [],
+      ready: function(f) {
+        t._e.push(f)
+      }
+    })
+    }(document, "script", "twitter-wjs"))
+    </script> -->
+
+  <!-- Added the video function -->
+  <!--  <script>
+    function randInt(min, max) {
+      return Math.floor(Math.random() * (max-min + 1) + min);
+      }
+    $(document).ready(function() {
+      var videoStart = randInt(1, 9);
+      var iframe = '<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&autoplay=1&index=' + videoStart + '" frameborder="0" allowfullscreen id="video"></iframe>';
+      $('#video_container').html(iframe);
+    });
+  </script> -->
+<!-- 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-40064420-1', 'auto');
+    ga('send', 'pageview');
+  </script> -->

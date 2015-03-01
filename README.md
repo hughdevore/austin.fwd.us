@@ -12,9 +12,10 @@ Deadline: Needs to be ready to launch by National Day of Action.
 <strong>Cool Possible Features:</strong> Include a "debt clock" style counter of how much $ texas is losing out on + important underfunded sections of our state it could go to (education came up).
 
 <h1>Roles:</h1>
-Paul - Call to action/Testing
 Hughie - Front-End/Design (Content layouts, styling, etc, visualizations)
+<br>
 Gabe - Front-End/Design (Content layouts, styling, etc, visualizations)
+<br>
 Robert: Backend help as needed (seems to primarily be a frontend project)
 
 <h1>Resources:</h1>

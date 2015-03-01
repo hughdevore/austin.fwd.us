@@ -1,3 +1,4 @@
+<section ng-controller="homeCtrl">
 <div class="heading-wrapper">
     <header>
         <a href="http://www.fwd.us/chapter_aus" target="_blank">
@@ -14,7 +15,7 @@
     </div>
   
     <div id="twitterButton">
-        <a class="btn  hvr-icon-grow-rotate hvr-grow" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20$XXX,XXX,XXX.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
+        <a class="btn  hvr-icon-grow-rotate hvr-grow" ng-href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20Your%20injunction%20has%20cost%20Texas%20${{container}}.%20It's%20time%20for%20%20%23ImmigrationReform%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
                 <span class="label" id="l">
                 <strong> Tweet</strong></span>
         </a>  
@@ -23,7 +24,7 @@
     </div>
 </div>
 
-<div ng-controller="homeCtrl" class="info-wrapper col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
+<div class="info-wrapper col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
   <div id="infographic" class="tubs container col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-1  col-sm-offset-1">
     <div class="data-label hvr-grow">
       <div class="info-label"><strong>DAYS LAWSUIT PENDING: </strong></div>
@@ -63,11 +64,11 @@
       <p>
       These videos were filmed and compiled by FWD.us Austin Chapter members.
       </p>
-      Movie
-<!--        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>-->
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLwVuCj2NpVjqy7RCwh3mc_GxAf8-_prut&amp;autoplay=1&amp;index=3" frameborder="0" allowfullscreen="" id="video"></iframe>
   </div>
     
 </div>
+</section>
     
 
   <!-- SCRIPTS -->

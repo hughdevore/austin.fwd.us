@@ -3,10 +3,10 @@
 <h1>Timeline:</h1>
 <strong>Hackathon Dates:</strong> Thursday, Friday, Saturday & Sunday (2/26-2/29)
 <br>
-<strong>Deadline:</strong> Needs to be ready to launch by National Day of Action. 
+<strong>Deadline:</strong> Needs to be ready to launch by National Day of Action (3/2/15). 
 
 <h1>Our project:</h1>
-<strong>Overview:</strong> Rebuild local web page to
+<strong>Overview:</strong> Rebuild local web page
 <br>
 <strong>Target:</strong> Abbott & lawsuit against executive action (http://www.chron.com/news/houston-texas/article/Abbott-Federal-judge-halts-Obama-immigration-6084523.php)
 <br>

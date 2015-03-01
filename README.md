@@ -2,6 +2,7 @@
 <h2>Team ironFWD</h2>
 <h1>Timeline:</h1>
 Hackathon Dates: Thursday, Friday, Saturday & Sunday (2/26-2/29)
+<br>
 Deadline: Needs to be ready to launch by National Day of Action. 
 
 <h1>Our project:</h1>

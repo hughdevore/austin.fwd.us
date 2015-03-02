@@ -32,25 +32,44 @@ iframe {
 h1 {
   font-family: 'Droid Serif', Georgia, serif;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3em;
   display: block;
-  width: 100%;
 /*  margin-top: -40px;*/
       margin-top: 32px;
   margin-bottom: 32px;
   color: #369ff4;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+    padding-top: 0.5em;
+}
+
 h3 {
     color: #e8632a;
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 32px;
     margin-bottom: 32px;
 }
 
+h4 {
+    color: black;
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+
 p {
     color: #2E2D2C;
-    font-size: 1.5em;
+    font-size: 0.5em;
+    padding: 0 3%;
+    text-align: center;
+}
+
+a {
+    text-align: center;
 }
 
 .heading-wrapper{
@@ -62,12 +81,30 @@ p {
     border: 2px solid #0099cc;
     color: black;
 }
+
+
+.info-wrapper {
+    height: 100%;
+}
+
+.info-title {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10%;
+}
+
 .tubs{
     background: rgb(81, 153,211);
     border-radius: 5px;
-    margin: 4em 0px 1em 0;
     padding: 20px 0 20px 0;
+    height: 100%;
+    margin: 5%;
 }
+#twitter-feed {
+    padding:0 3%;  
+    padding-bottom: 10%;
+}
+
 
 .data-label{
     margin: 20px 20px;
@@ -102,14 +139,15 @@ p {
     color: white;
     padding: .75em 0 .75em 0;
 }
-#twitter-feed{
-    padding: 25px 0 25px 0;
-}
 #video-wrapper{
 /*    margin: 2em 0 1em 0 ;*/
     margin-bottom: 1em;
 /*    margin-left: 8.33333333%;*/
-    margin:0 5%;
+    margin:5%;
+    padding: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
 }
 
 /* Responsive */
@@ -121,25 +159,55 @@ p {
 
 @media screen and (max-width: 900px) {
   iframe {
-    width: 650px;
+    width: 90%;
     height: 333px;
   }
 }
 
 @media screen and (max-width: 675px) {
   iframe {
-    width: 450px;
+    width: 90%;
     height: 245px;
   }
 
   h3 {font-size: 2.5em;}
+  
 }
 
 @media screen and (max-width: 475px) {
   iframe {
-    width: 300px;
+    width: 90%;
     height: 163px;
   }
+}
+
+@media screen and (min-width: 550px) {
+    .twin {
+        margin: 0;
+        margin-top: 5%;
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+    }
+    h2 {
+        font-size: 3.5em;
+    }
+
+    .data-label {
+        display: block;   
+    }
+
+    #twitter-feed {
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 1100px) {
+     .info-title {
+        margin: 0;
+        display: inline-block;
+        width: 45%;
+        margin-bottom:24%;
+    }   
 }
 
 

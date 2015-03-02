@@ -30,7 +30,7 @@ iframe {
 h1 {
   font-family: 'Droid Serif', Georgia, serif;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
   display: block;
   width: 100%;
 /*  margin-top: -40px;*/
@@ -63,7 +63,8 @@ p {
 .tubs{
     background: rgb(81, 153,211);
     border-radius: 5px;
-    margin: 20px 0px 20px 0;
+    margin: 4em 0px 1em 0;
+    padding: 20px 0 20px 0;
 }
 
 .data-label{
@@ -74,6 +75,7 @@ p {
     background: rgb(169, 206,244); 
     font-weight: 500;
     font-size: 2em;
+    margin: 1em 0 1em 0;
     
   /*Transition*/
     -webkit-transition: All 0.5s ease;
@@ -93,12 +95,22 @@ p {
 .info-data{
     font-size: 1.5em;
 }
-#twitter-feed p{
+.div-headers p{
     font-size: 3em;
     color: white;
+    padding: .75em 0 .75em 0;
 }
-/* Responsive */
+#twitter-feed{
+    padding: 25px 0 25px 0;
+}
+#video-wrapper{
+/*    margin: 2em 0 1em 0 ;*/
+    margin-bottom: 1em;
+/*    margin-left: 8.33333333%;*/
+    margin:0 5%;
+}
 
+/* Responsive */
 @media screen and (max-width: 1200px) {
   h1 {
     margin-top: 0;

@@ -1,5 +1,5 @@
 <section ng-controller="homeCtrl">
-    <div class="heading-wrapper">
+    <div class="heading-wrapper" ng-controller="successCtrl">
         <header>
             <a href="http://www.fwd.us/chapter_aus" target="_blank">
                 <img src="images/fwd-logo.svg" alt="" class="logo">
@@ -7,7 +7,7 @@
         </header>
         <h1 class="hvr-grow">#LetAbbottHaveIt</h1>
         <div id="twitterButton">
-            <a class="btn hvr-icon-grow-rotate hvr-grow" ng-href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20FACT:%20Your%20lawsuit%20against%20%23ImmigrationReform%20has%20cost%20the%20US%20${{containerNational}}.%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
+            <a class="btn hvr-icon-grow-rotate hvr-grow"  ng-click="goSuccess()" ng-href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Faustin.fwd.us%2F&amp;related=fwd_us&amp;text=%40GregAbbott_TX%20FACT:%20Your%20lawsuit%20against%20%23ImmigrationReform%20has%20cost%20the%20US%20${{containerNational}}.%20%20%23LetAbbottHaveIt%20;tw_p=tweetbutton&amp;url=http%3A%2F%2Faustin.fwd.us%2F" id="b">   
                     <span class="label" id="l">
                         <strong>Tweet</strong>
                     </span>

@@ -50,5 +50,5 @@ angular.module('app.controllers', [])
 .controller('successCtrl', function($scope, $state) {
 	$scope.goSuccess = function() {
 		$state.go('success');
-	};
+    };
 });

@@ -19,7 +19,9 @@ header {
 }
 
 .logo {
-  width: 200px;
+    width: 200px;
+    padding-top: 2em;
+    padding-left: 3em;
 }
 
 iframe {
@@ -138,4 +140,19 @@ p {
     width: 300px;
     height: 163px;
   }
+}
+
+
+#share-text {
+    font-size: 2em;
+    color: black;
+    padding-bottom: 2em;
+}
+#share-text strong {
+    font-weight: 800;
+    font-size: 1.25em;
+}
+.share-button {
+    padding: 1em 1.5em;
+    background-color: rgb(169, 206,244);
 }
